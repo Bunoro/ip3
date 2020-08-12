@@ -1,27 +1,27 @@
-$(document).ready(function){
+$(document).ready(function() {
     //to toggle text
     $(".design").click(function() {
-        $(".display-design").fadeToggle();
+        $(".shown-design").fadeToggle();
         $(".hidden-design").fadeToggle();
     });
     
     $(".development").click(function() {
-        $(".display-development").fadeToggle();
+        $(".shown-development").fadeToggle();
         $(".hidden-development").fadeToggle();
     });
     
     $(".management").click(function() {
-        $(".display-management").fadeToggle();
+        $(".shown-management").fadeToggle();
         $(".hidden-management").fadeToggle();
     });
 
     //to toggle text in portfolio class
     $(".card").hover(function() {
-        $(".toggle-text",this).slideToggle('slow');
+        $(".toggle-text",this).slideToggle("slow");
     }, function(){
-        $('.toggle-text',this).fadeToggle('slow');
+        $(".toggle-text",this).fadeToggle("slow");
     })
-}
+})
 
 //form input validation
 $("#mc-embedded-subscribe-form").on('submit',function(event){
