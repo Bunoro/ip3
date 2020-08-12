@@ -41,3 +41,15 @@ body {
   clear: both;
 }
 
+.services {
+  background-image: url(../assets/backgrounds/s_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+  height: auto;
+  width: auto;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px;
+}
+
