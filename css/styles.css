@@ -60,3 +60,15 @@ body {
 h2 {
   text-align: center;
 }
+
+.display-design {
+  display: none;
+}
+
+.display-development {
+  display: none;
+}
+
+.display-management {
+  display: none;
+}
