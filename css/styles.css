@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  padding: 0%;
+}
+
+.container-fluid {
+  margin: 0%;
+  padding: 0%;
+}
+
+.jumbotron-fluid {
+  background-image: url(../assets/backgrounds/h_img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+  height: auto;
+  width: auto;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px;
+}
+
+.logo {
+  margin-top: 100px;
+}
+
+.landing-page {
+  
+}
