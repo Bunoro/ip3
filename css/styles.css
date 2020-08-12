@@ -34,3 +34,10 @@ body {
 .landing-page h1 {
   font-weight: bold;
 }
+
+.aboutUs {
+  text-align: center;
+  padding: 50px;
+  clear: both;
+}
+
