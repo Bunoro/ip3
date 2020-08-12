@@ -72,3 +72,13 @@ h2 {
 .display-management {
   display: none;
 }
+
+.portfolio {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
+
+.portfolio .card {
+  margin: 10px;
+}
