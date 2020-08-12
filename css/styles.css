@@ -97,3 +97,13 @@ h2 {
   padding: 40px;
   height: 100%;
 }
+
+.hero-image {
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 200px;
+}
+
